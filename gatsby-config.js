@@ -8,8 +8,7 @@ module.exports = {
       resolve: 'gatsby-source-livingdocs',
       options: {
         // The accessToken is accessed at buildtime and set in netlify in this case
-        accessToken: process.env.saravanan
-
+        accessToken: saravanan.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZSI6InB1YmxpYy1hcGk6cmVhZCIsIm5hbWUiOiJzYXJhdmFuYW4iLCJwcm9qZWN0SWQiOjQ2NCwiY2hhbm5lbElkIjo0NjAsInR5cGUiOiJjbGllbnQiLCJqdGkiOiIzNWNmYTQ4ZC1mNjcwLTQ2NDUtODk4OC1lYTM5MmFlNzNjY2YiLCJjb2RlIjoiMzVjZmE0OGQtZjY3MC00NjQ1LTg5ODgtZWEzOTJhZTczY2NmIiwiaWF0IjoxNTcxODk5OTE1fQ.Q5efQRADI8WvHOvmjebnTsPejfj5uqUH53zpch3j9LI
         // limit: 10, Default=10. Max=100. Defines how many documents are gathered per request.
         // recursion: true, Default=true changing not advised.
         // recursion: false - limit will now be the number of documents you recieve back.
