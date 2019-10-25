@@ -8,7 +8,7 @@ module.exports = {
       resolve: 'gatsby-source-livingdocs',
       options: {
         // The accessToken is accessed at buildtime and set in netlify in this case
-        accessToken:process.env.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZSI6InB1YmxpYy1hcGk6cmVhZCIsIm5hbWUiOiJsaXZpbmcgYmxvZyIsInByb2plY3RJZCI6NjE2LCJjaGFubmVsSWQiOjU5NiwidHlwZSI6ImNsaWVudCIsImp0aSI6IjRmMTFkNmQ5LTFhZTMtNDg2MS1hMTIyLTg1YmM1OTFhYmU5OSIsImNvZGUiOiI0ZjExZDZkOS0xYWUzLTQ4NjEtYTEyMi04NWJjNTkxYWJlOTkiLCJpYXQiOjE1NzE5ODk3NTN9.j3hKM2NAc8iMwNIiU2iNUkFTWpeT2jlOiMabnHgHlH4;
+        accessToken:'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzY29wZSI6InB1YmxpYy1hcGk6cmVhZCIsIm5hbWUiOiJsaXZpbmcgYmxvZyIsInByb2plY3RJZCI6NjE2LCJjaGFubmVsSWQiOjU5NiwidHlwZSI6ImNsaWVudCIsImp0aSI6IjRmMTFkNmQ5LTFhZTMtNDg2MS1hMTIyLTg1YmM1OTFhYmU5OSIsImNvZGUiOiI0ZjExZDZkOS0xYWUzLTQ4NjEtYTEyMi04NWJjNTkxYWJlOTkiLCJpYXQiOjE1NzE5ODk3NTN9.j3hKM2NAc8iMwNIiU2iNUkFTWpeT2jlOiMabnHgHlH4',
 
         // limit: 10, Default=10. Max=100. Defines how many documents are gathered per request.
         // recursion: true, Default=true changing not advised.
