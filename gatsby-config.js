@@ -1,7 +1,7 @@
 module.exports = {
   // siteMetadata is used for sitemap.xml
   siteMetadata: {
-    siteUrl: `https://magazine-example.livingdocs.io/sitemap.xml` // @TODO swap out for your host
+    siteUrl: `https://hardcore-allen-ec2385.netlify.com/` // @TODO swap out for your host
   },
   plugins: [
     {
@@ -21,8 +21,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://magazine-example.livingdocs.io/', // @TODO swap out for your host
-        sitemap: 'https://magazine-example.livingdocs.io/sitemap.xml', // @TODO swap out for your host
+        host: 'https://hardcore-allen-ec2385.netlify.com/', // @TODO swap out for your host
+        sitemap: 'https://hardcore-allen-ec2385.netlify.com/', // @TODO swap out for your host
         env: {
           development: {
             policy: [{userAgent: '*', disallow: ['/']}]
